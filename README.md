@@ -1,19 +1,23 @@
-# Meu Primeiro Projeto
+# Minha Primeira turma
 
 ## Sobre mim
 
 Meu nome é Pedro Lucas.
 
-Tenho interesse em tecnologia e estou começando a aprender programação.
+Sou formado em TI Analise e desenvolvimentos de sistemas e neste momento estou dando aula de Introdução e lógica de programação em python, aqui será um backlog das aulas seguindo as atividades passadas em aula.
 
-## O que estou aprendendo
+## O que será ensinado
 
 - Lógica de programação
-- Algoritmos
-- Python
+- Variaveis
+- Tipos de dados e Operadores
+- Entrada e Saída de Dados
+- Condicionais e Estrutura de repetição
+- Listas
+- Funções
 - Git
 - GitHub
 
 ## Meu objetivo
 
-Aprender programação e desenvolver meus próprios projetos.
+Ensinar o básico necessário para uma aplicação em Python e facilitar o entendimento de códigos através da logica adquirida
