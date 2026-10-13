@@ -14,3 +14,5 @@ print(idade)
 print(nota)
 print(boolean)
 print(f"Nome: {nome} Idade: {idade} Nota: {nota} Boolean: {boolean}")
+
+
