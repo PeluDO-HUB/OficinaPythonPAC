@@ -2,7 +2,7 @@
 
 ## Sobre mim
 
-Meu nome é Pedro Lucas.
+Olá, meu nome é Pedro Lucas.
 
 Sou formado em TI Analise e desenvolvimentos de sistemas e neste momento estou dando aula de Introdução e lógica de programação em python, aqui será um backlog das aulas seguindo as atividades passadas em aula.
 
@@ -20,4 +20,4 @@ Sou formado em TI Analise e desenvolvimentos de sistemas e neste momento estou d
 
 ## Meu objetivo
 
-Ensinar o básico necessário para uma aplicação em Python e facilitar o entendimento de códigos através da logica adquirida
+Ensinar o básico necessário para uma aplicação em Python e facilitar o entendimento de códigos através da lógica adquirida
