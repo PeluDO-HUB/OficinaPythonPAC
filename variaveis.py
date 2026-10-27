@@ -13,6 +13,7 @@ print(nome)
 print(idade)
 print(nota)
 print(boolean)
-print(f"Nome: {nome} Idade: {idade} Nota: {nota} Boolean: {boolean}")
+print(f"Nome: {nome} \nIdade: {idade} \nNota: {nota} \nBoolean: {boolean}")
 
-
+print("Olá, meu nome é", nome, "e tenho", idade, "anos")
+print(f"Olá, meu nome é {nome} e tenho {idade} anos")
