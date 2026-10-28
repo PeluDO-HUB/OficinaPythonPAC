@@ -25,6 +25,15 @@ def senhaCorreta():
     while senha != senha2 :
         senha2= str(input("Senha Incorreta, Digite novamente: "))
 
+    """
+    Para mostrar como utilizar o while para evitar um erro.
+    while True:
+        senha2= str(input("Digite a senha: "))
+        if senha == senha2:
+            break
+        else:
+            print("Senha Incorreta!")
+    """
     print("Login Feito com Sucesso!")
 
 
@@ -47,8 +56,9 @@ def tabuadaFor():
 4. Números pares — for e range()
 Faça um programa que mostre todos os números pares de 0 até 20, utilizando for e range().
 """
-for i in range(0,21,1):
-    print(i)
+def pares():
+    for i in range(2,21,2):
+        print(i)
 
 """
 5. Soma dos números — for e range()
@@ -83,3 +93,30 @@ def somador():
         soma+=num
 
     print(f"A soma de todos os números foi de: {soma}")
+
+
+
+"""
+print("Olá")
+print("Olá")    
+print("Olá")
+print("Olá")
+print("Olá")
+
+
+contador = 0
+while contador<=3:
+    contador += 1
+    print(f"Olá {contador}")
+
+
+for i in range(3):
+    print(f"Print {i+1}")
+
+for i in range(12,17):
+    print(f"Print {i}")
+
+
+for i in range(14,517,20):
+    print(f"Print {i}")
+"""

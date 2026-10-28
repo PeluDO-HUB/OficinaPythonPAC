@@ -66,6 +66,10 @@ def cadastrar_aluno():
     alunos.append(aluno)
 
     print("Aluno cadastrado com sucesso!")
+    denovo=input("Deseja Cadastrar outro aluno? Sim ou S para cadastrar,caso não so aperte Enter").lower()
+    if denovo=="sim" or denovo =="s":
+        cadastrar_aluno()
+
 
 
 def listar_alunos():
@@ -130,3 +134,4 @@ while True:
 
     else:
         print("Opção inválida! Tente novamente.")
+
