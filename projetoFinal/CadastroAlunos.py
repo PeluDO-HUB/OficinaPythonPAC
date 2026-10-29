@@ -87,14 +87,12 @@ def listar_alunos():
     if len(alunos) == 0:
         print("Nenhum aluno cadastrado.")
     else:
+        print(f"{"Nome do Aluno".ljust(15)} | {"Nota 1".ljust(8)} | Nota 2")
         for indice in range(len(alunos)):
             aluno = alunos[indice]
+    
+            print(f"{indice+1}.{aluno["nome"].ljust(13)} | {str(aluno["nota1"]).ljust(8)} | {aluno["nota2"]}")
 
-            print(f"\nAluno {indice + 1}")
-            print(f"Nome: {aluno['nome']}")
-            print(f"Idade: {aluno['idade']} anos")
-            print(f"Nota 1: {aluno['nota1']}")
-            print(f"Nota 2: {aluno['nota2']}")
 
 
 def consultar_medias():
