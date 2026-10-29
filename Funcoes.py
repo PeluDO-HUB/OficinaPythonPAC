@@ -86,7 +86,12 @@ def converter_temperaturav2(temp, inicio, convertido):
         break
 
 
-temp = float(input("Insira a temperatura em para converte-la: "))
+while True:
+    try:
+        temp = float(input("Insira a temperatura para convertê-la: "))
+        break
+    except ValueError:
+        print("Valor inválido. Insira uma temperatura numérica.")
 inicio = input("Insira o tipo de temperatura\n c=Celsius k=Kelvin f=Fahrenheit\n")
 fim = input("Agora insira para qual temperatura quer converter\n c=Celsius k=Kelvin f=Fahrenheit\n ")
 #converter_temperatura(celsius)

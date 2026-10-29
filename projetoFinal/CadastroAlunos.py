@@ -54,7 +54,16 @@ def cadastrar_aluno():
     nome = input("Nome do aluno: ")
     idade = int(input("Idade do aluno: "))
     nota1 = float(input("Primeira nota: "))
+    while nota1 <0 or nota1>10:
+        print(f"Primeira nota inserida Invalida! Notas Aceitas de 0 a 10")
+        nota1 = float(input("Primeira nota: "))
+
     nota2 = float(input("Segunda nota: "))
+    while nota2 <0 or nota2>10:
+        print(f"Segunda nota inserida Invalida! Notas Aceitas de 0 a 10")
+        nota2 = float(input("Segunda nota: "))
+    
+        
 
     aluno = {
         "nome": nome,
