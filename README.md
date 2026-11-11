@@ -13,7 +13,7 @@ Sou formado em TI Analise e desenvolvimentos de sistemas e neste momento estou d
 - Tipos de dados e Operadores
 - Entrada e Saída de Dados
 - Condicionais e Estrutura de repetição
-- Listas
+- Listas e Dicionarios
 - Funções
 - Git
 - GitHub
