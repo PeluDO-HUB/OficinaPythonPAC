@@ -25,14 +25,15 @@ def senhaCorreta():
     while senha != senha2 :
         senha2= str(input("Senha Incorreta, Digite novamente: "))
 
+    while True:
+            senha2= str(input("Digite a senha: "))
+            if senha == senha2:
+                break
+            else:
+                print("Senha Incorreta!")
     """
     Para mostrar como utilizar o while para evitar um erro.
-    while True:
-        senha2= str(input("Digite a senha: "))
-        if senha == senha2:
-            break
-        else:
-            print("Senha Incorreta!")
+    
     """
     print("Login Feito com Sucesso!")
 
