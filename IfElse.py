@@ -1,9 +1,24 @@
 """
+1.
 Peça o nome do aluno e logo em seguida receba 3 ou mais notas, calcule a média e informe a situação do aluno
 Reprovado: média menor que 5
 Recuperação: média entre 5 e 7
 Aprovado: média maior que 7
 """
+
+
+
+
+senha = "012345"
+senhaTentativa = str(input("Digite a senha: "))
+
+if senha == senhaTentativa:
+    print("Login feito com sucesso!")
+else:
+    print("falhou no login :(")
+ 
+
+
 def situacaoAluno():
     nome =str(input("Insira o nome do Aluno: "))
     nota1 =float(input("Insira a primeira nota:"))
@@ -20,6 +35,7 @@ def situacaoAluno():
         print(f"O aluno {nome} foi aprovado com a nota {media:.2f}")
 
 """
+2.
 Crie um programa que solicite o nome e a idade de uma pessoa.
 Depois, classifique-a como Criança, Adolescente ou Adulto,
 de acordo com a idade, e exiba todas as informações
@@ -42,6 +58,7 @@ def classifacaoIdade():
     print(f"Resumo: \nNome: {nome} \nIdade: {idade} \nClassificação: {classificacao}")
 
 """
+3.
 Crie um programa que solicite a idade de uma pessoa e classifique
 o valor do ingresso conforme as regras:
     Menor que 12 anos o ingresso será de R$12.00

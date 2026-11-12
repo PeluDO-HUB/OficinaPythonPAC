@@ -137,6 +137,37 @@ print("\n=== INFORMAÇÕES DO ALUNO ===")
 for chave, valor in aluno.items():
     print(f"{chave}: {valor}")
 
+"""
+2. Dicionários — Cadastro de um produto
+Crie um dicionário para armazenar as informações de um produto.
+O programa deve:
+    Armazenar nome, preço, quantidade e categoria.
+    Exibir todas as informações do produto.
+    Alterar o preço do produto.
+    Adicionar uma nova informação chamada marca.
+    Remover a informação categoria.
+    Exibir novamente todas as informações utilizando items().
+"""
+def cadastroProdutoDic():
+    produto={
+        "nome":"Fanta Uva 2L",
+        "preco":10.50,
+        "qtd":5,
+        "categoria":"Bebida"}
+    
+    for chave, valor in produto.items():
+        print(f"{chave}: {valor}")
+    
+    produto["preco"] = 8.90
+    produto["marca"] = "Coca-Cola"
+    del produto["categoria"]
+    print()
+    for chave, valor in produto.items():
+        print(f"{chave}: {valor}")
+        
+
+
+
 
 # ==================================================
 # 3. LISTA DE DICIONÁRIOS
@@ -249,36 +280,6 @@ else:
 print("\nTotal de alunos:", len(alunos))
 
 
-
-"""
-2. Dicionários — Cadastro de um produto
-Crie um dicionário para armazenar as informações de um produto.
-O programa deve:
-    Armazenar nome, preço, quantidade e categoria.
-    Exibir todas as informações do produto.
-    Alterar o preço do produto.
-    Adicionar uma nova informação chamada marca.
-    Remover a informação categoria.
-    Exibir novamente todas as informações utilizando items().
-"""
-def cadastroProdutoDic():
-    produto={
-        "nome":"Fanta Uva 2L",
-        "preco":10.50,
-        "qtd":5,
-        "categoria":"Bebida"}
-    
-    for chave, valor in produto.items():
-        print(f"{chave}: {valor}")
-    
-    produto["preco"] = 8.90
-    produto["marca"] = "Coca-Cola"
-    del produto["categoria"]
-    print()
-    for chave, valor in produto.items():
-        print(f"{chave}: {valor}")
-        
-
 """   
 3. Lista de dicionários — Controle de estoque
 Crie um programa para organizar os produtos de uma loja.
@@ -336,6 +337,4 @@ def controleEstoque():
         if produto["qtd"] < 5:
             print(f"O produto {produto['nome']} possui menos de 5 unidades no momento!! "
                     f"Qtd Atual: {produto['qtd']}")
-        else:
-            print("Todos os produtos possuem um bom estoque! :)")
                     
